@@ -11,6 +11,7 @@ h3 {
 
 p {
     text-align: left;
+    color: white;
 }
 
 body {
@@ -21,9 +22,49 @@ body {
 * {
   font-family: sans-serif;
   font-size: large;
+  line-height: 1.5;
 }
 
 img {
   border-radius: 8px;
   display: block;
+  width: 40%;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.subtitle {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+#introduction {
+    background-color: blueviolet;
+}
+
+#rules {
+    background-color: deeppink;
+}
+
+#history {
+    background-color: coral;
+}
+
+#footer {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+#player_achievement_wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+#player, #achievement {
+    flex: 1;
 }
