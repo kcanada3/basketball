@@ -1,3 +1,4 @@
+/* header and text styling */
 header {
   background-color: rgb(180, 41, 25);
   text-align: center;
@@ -14,6 +15,7 @@ p {
     color: white;
 }
 
+/* global page styling */
 body {
   background-color: black;
   color: white;
@@ -25,12 +27,14 @@ body {
   line-height: 1.5;
 }
 
+/* image styling */
 img {
   border-radius: 8px;
   display: block;
   width: 40%;
 }
 
+/* title and section heading */
 .title {
     font-weight: bold;
     font-size: 40px;
@@ -43,6 +47,7 @@ img {
     text-align: center;
 }
 
+/* content sections with different background colors */
 #introduction {
     background-color: blueviolet;
 }
@@ -55,11 +60,13 @@ img {
     background-color: coral;
 }
 
+/* footer styling */
 #footer {
     background-color: lightblue;
     padding: 10px;
 }
 
+/* flex boxes with the content being side by side */
 #player_achievement_wrapper {
     display: flex;
     gap: 20px;
