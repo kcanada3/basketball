@@ -80,6 +80,7 @@ img {
     flex: 1;
 }
 
+/* design for smaller screens */
 @media (max-width: 600px) {
   body {
     font-size: 16px;
