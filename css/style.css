@@ -1,8 +1,12 @@
 /* header and text styling */
 header {
-  background-color: rgb(180, 41, 25);
+  background-color: rgb(117, 26, 16);
   text-align: center;
   color: black;
+}
+
+h2 {
+    color: white;
 }
 
 h3 {
@@ -49,20 +53,20 @@ img {
 
 /* content sections with different background colors */
 #introduction {
-    background-color: blueviolet;
+    background-color: rgb(91, 22, 155);
 }
 
 #rules {
-    background-color: deeppink;
+    background-color: rgb(124, 16, 74);
 }
 
 #history {
-    background-color: coral;
+    background-color: rgb(185, 92, 58);
 }
 
 /* footer styling */
 #footer {
-    background-color: lightblue;
+    background-color: rgb(168, 233, 255);
     padding: 10px;
 }
 
@@ -74,4 +78,15 @@ img {
 
 #player, #achievement {
     flex: 1;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  #player_achievement_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
 }
