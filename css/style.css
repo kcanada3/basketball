@@ -1,7 +1,6 @@
 /* header and text styling */
 header {
   background-color: rgb(117, 26, 16);
-  text-align: center;
   color: black;
 }
 
@@ -62,12 +61,6 @@ img {
 
 #history {
     background-color: rgb(185, 92, 58);
-}
-
-/* footer styling */
-#footer {
-    background-color: rgb(168, 233, 255);
-    padding: 10px;
 }
 
 /* flex boxes with the content being side by side */
