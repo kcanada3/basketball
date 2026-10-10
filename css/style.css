@@ -1,6 +1,5 @@
 /* header and text styling */
 header {
-  background-color: rgb(117, 26, 16);
   color: black;
 }
 
@@ -35,6 +34,24 @@ img {
   border-radius: 8px;
   display: block;
   width: 40%;
+}
+
+/* title and basketball styling for index.html */
+.title-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.title-row .ball-class {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.title-row .title {
+    margin: 0;
 }
 
 /* title and section heading */
