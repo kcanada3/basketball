@@ -47,7 +47,6 @@ img {
 .subtitle {
     font-size: 30px;
     color: white;
-    text-align: center;
 }
 
 /* content sections with different background colors */
@@ -61,16 +60,6 @@ img {
 
 #history {
     background-color: rgb(185, 92, 58);
-}
-
-/* flex boxes with the content being side by side */
-#player_achievement_wrapper {
-    display: flex;
-    gap: 20px;
-}
-
-#player, #achievement {
-    flex: 1;
 }
 
 /* design for smaller screens */
