@@ -1,6 +1,6 @@
 /* header and text styling */
 header {
-  color: black;
+  color: white;
 }
 
 h2 {
@@ -64,19 +64,6 @@ img {
 .subtitle {
     font-size: 30px;
     color: white;
-}
-
-/* content sections with different background colors */
-#introduction {
-    background-color: rgb(91, 22, 155);
-}
-
-#rules {
-    background-color: rgb(124, 16, 74);
-}
-
-#history {
-    background-color: rgb(185, 92, 58);
 }
 
 /* design for smaller screens */
